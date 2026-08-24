@@ -109,7 +109,7 @@ git remote add upstream https://github.com/arleyfernandotorresgalindo/ED_2026_02
 git fetch upstream             # Trae lo nuevo del profesor
 git rebase upstream/main       # Pone tu copia al día
 git submodule update           # Actualiza el código del libro (goodrich/)
-git push origin main --force   # Sube tu copia actualizada a tu fork
+git submodule update  # Sube tu copia actualizada a tu fork
 ```
 
 Esto trae el material nuevo sin borrar nada de lo que tengas en `student_work/`.
